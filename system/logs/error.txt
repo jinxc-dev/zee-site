@@ -1,0 +1,38 @@
+2014-11-04 6:07:28 - PHP Notice:  Error: Could not load controller module/zeecustom! in M:\wamp\www\zeemall\system\engine\controller.php on line 47
+2014-11-04 6:33:17 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:33:17 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:33:17 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:33:17 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:33:17 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:33:17 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:33:17 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:37:57 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:37:57 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:37:57 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:37:57 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:37:57 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:37:57 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:37:57 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 6:56:00 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in M:\wamp\www\zeemall\system\library\mail.php on line 150
+2014-11-04 6:56:01 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in M:\wamp\www\zeemall\system\library\mail.php on line 150
+2014-11-04 6:56:02 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in M:\wamp\www\zeemall\system\library\mail.php on line 150
+2014-11-04 6:56:43 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 6:58:24 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 6:59:10 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 6:59:28 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 7:00:01 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 7:00:12 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 11:39:51 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 11:53:14 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in M:\wamp\www\zeemall\system\library\mail.php on line 150
+2014-11-04 12:26:11 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 12:27:15 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in M:\wamp\www\zeemall\system\library\mail.php on line 150
+2014-11-04 12:27:24 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 12:28:22 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in M:\wamp\www\zeemall\system\library\mail.php on line 150
+2014-11-04 12:29:08 - PHP Notice:  Undefined variable: ms_button_generate in M:\wamp\www\zeemall\catalog\view\theme\zee_responsive\template\multiseller\account-product-form.tpl on line 682
+2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28

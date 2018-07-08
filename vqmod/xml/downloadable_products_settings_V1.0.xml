@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Downloadable Products Settings</id>
+	<version>1.0</version>
+	<vqmver>2.X</vqmver>
+	<author>zeescripts</author>
+
+<file name="admin/controller/catalog/product.php" error="log">
+	<operation error="skip">
+		<search position="replace" index="1"><![CDATA[$this->data['subtract'] = 1;]]></search>
+		<add><![CDATA[$this->data['subtract'] = 0;]]></add>
+	</operation>
+
+	<operation error="skip">
+	<search position="replace" index="1"><![CDATA[$this->data['quantity'] = 1;]]></search>
+		<add><![CDATA[$this->data['quantity'] = 999999999;]]></add>
+	</operation>
+
+	<operation error="skip">
+		<search position="replace" index="1"><![CDATA[$this->data['shipping'] = 1;]]></search>
+		<add><![CDATA[$this->data['shipping'] = 0;]]></add>
+	</operation>
+</file>
+<file name="admin/view/template/catalog/product_form.tpl" error="log">
+	<operation error="skip">
+		<search position="replace" index="1"><![CDATA[html += '    <td class="right"><input type="text" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][quantity]" value="" size="3" /></td>';]]></search>
+		<add><![CDATA[html += '    <td class="right"><input type="text" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][quantity]" value="999999999" size="3" /></td>';]]></add>
+	</operation>
+
+	<operation error="skip">
+		<search position="replace" offset="2"><![CDATA[	html += '    <td class="left"><select name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][subtract]">';]]></search>
+		<add><![CDATA[	html += '    <td class="left"><select name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][subtract]">';
+	html += '      <option value="0"><?php echo $text_no; ?></option>';
+	html += '      <option value="1"><?php echo $text_yes; ?></option>';]]></add>
+	</operation>
+</file>
+
+<file name="catalog/controller/product/product.php" error="log">
+      <operation error="skip">
+         <search position="replace" index="1"><![CDATA[$this->data['text_stock'] = $this->language->get('text_stock');
+]]></search>
+         <add><![CDATA[$this->data['text_stock'] = '';]]></add>
+      </operation>
+
+   	  <operation error="skip">
+         <search position="replace" index="1"><![CDATA[$this->data['stock'] = $product_info['stock_status'];]]></search>
+         <add><![CDATA[$this->data['stock'] = '';]]></add>
+   	  </operation>
+
+   	  <operation error="skip">
+         <search position="replace" index="1"><![CDATA[$this->data['stock'] = $product_info['quantity'];]]></search>
+         <add><![CDATA[$this->data['stock'] = '';]]></add>
+   	  </operation>
+
+   	  <operation error="skip">
+         <search position="replace" index="1"><![CDATA[$this->data['stock'] = $this->language->get('text_instock');]]></search>
+         <add><![CDATA[$this->data['stock'] = '';]]></add>
+   	  </operation>
+</file>
+</modification>
+
+

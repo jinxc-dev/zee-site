@@ -1,0 +1,118 @@
+a:10:{i:1;a:9:{s:12:"module_title";a:3:{i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";}s:11:"description";a:3:{i:1;s:331:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span6&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/static2.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span6&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/static3.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";i:2;s:331:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span6&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/static2.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span6&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/static3.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";i:3;s:331:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span6&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/static2.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span6&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/static3.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:1:"1";s:8:"position";s:11:"content_top";s:6:"status";s:1:"1";s:12:"module_class";s:0:"";s:10:"sort_order";s:1:"2";}i:2;a:9:{s:12:"module_title";a:3:{i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";}s:11:"description";a:3:{i:1;s:199:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span12&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/img-adv3.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";i:2;s:199:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span12&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/img-adv3.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";i:3;s:199:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span12&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/img-adv3.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:1:"1";s:8:"position";s:11:"content_top";s:6:"status";s:1:"1";s:12:"module_class";s:0:"";s:10:"sort_order";s:1:"4";}i:3;a:9:{s:12:"module_title";a:3:{i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";}s:11:"description";a:3:{i:1;s:333:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span5&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/img-adv4.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span7&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/img-adv5.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";i:2;s:333:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span5&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/img-adv4.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span7&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/img-adv5.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";i:3;s:333:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span5&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/img-adv4.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span7&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/img-adv5.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:1:"1";s:8:"position";s:14:"content_bottom";s:6:"status";s:1:"1";s:12:"module_class";s:0:"";s:10:"sort_order";s:1:"2";}i:4;a:9:{s:12:"module_title";a:3:{i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";}s:11:"description";a:3:{i:1;s:468:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span4&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/img-adv8.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span4&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/img-adv7.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span4&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/img-adv6.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";i:2;s:468:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span4&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/img-adv8.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span4&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/img-adv7.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span4&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/img-adv6.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";i:3;s:468:"&lt;div class=&quot;advertising row-fluid&quot;&gt;&lt;a class=&quot;span4&quot; href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/img-adv8.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span4&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/img-adv7.jpg&quot; /&gt; &lt;/a&gt; &lt;a class=&quot;span4&quot; href=&quot;#&quot;&gt; &lt;img alt=&quot;&quot; src=&quot;image/data/img-adv6.jpg&quot; /&gt; &lt;/a&gt;&lt;/div&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:5:"99999";s:8:"position";s:10:"footer_top";s:6:"status";s:1:"1";s:12:"module_class";s:0:"";s:10:"sort_order";s:1:"1";}i:5;a:9:{s:12:"module_title";a:3:{i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";}s:11:"description";a:3:{i:1;s:159:"&lt;div class=&quot;advleft&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/advleft1.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+";i:2;s:159:"&lt;div class=&quot;advleft&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/advleft1.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+";i:3;s:159:"&lt;div class=&quot;advleft&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/advleft1.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:1:"1";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:12:"module_class";s:9:"no-border";s:10:"sort_order";s:1:"5";}i:6;a:9:{s:12:"module_title";a:3:{i:1;s:17:"Sample block text";i:2;s:0:"";i:3;s:0:"";}s:11:"description";a:3:{i:1;s:166:"&lt;p&gt;Nunc gavida nis utrices borti molis temp tepor quam congue turpis sed psum blan dit donec vitae vestibum&amp;nbsp; congue mauris piscing aliquam.&lt;/p&gt;
+";i:2;s:166:"&lt;p&gt;Nunc gavida nis utrices borti molis temp tepor quam congue turpis sed psum blan dit donec vitae vestibum&amp;nbsp; congue mauris piscing aliquam.&lt;/p&gt;
+";i:3;s:166:"&lt;p&gt;Nunc gavida nis utrices borti molis temp tepor quam congue turpis sed psum blan dit donec vitae vestibum&amp;nbsp; congue mauris piscing aliquam.&lt;/p&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:1:"1";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:12:"module_class";s:6:"orange";s:10:"sort_order";s:1:"6";}i:7;a:9:{s:12:"module_title";a:3:{i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";}s:11:"description";a:3:{i:1;s:159:"&lt;div class=&quot;advleft&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/advleft2.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+";i:2;s:159:"&lt;div class=&quot;advleft&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/advleft2.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+";i:3;s:159:"&lt;div class=&quot;advleft&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;image/data/advleft2.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:1:"1";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:12:"module_class";s:9:"no-border";s:10:"sort_order";s:1:"8";}i:8;a:9:{s:12:"module_title";a:3:{i:1;s:14:"Stay Connected";i:2;s:14:"Stay Connected";i:3;s:14:"Stay Connected";}s:11:"description";a:3:{i:1;s:907:"&lt;h3&gt;Stay Connected&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li class=&quot;facebook&quot;&gt;&lt;span class=&quot;fa fa-facebook&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Facebook&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;twitter&quot;&gt;&lt;span class=&quot;fa fa-twitter&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Twitter&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;google&quot;&gt;&lt;span class=&quot;fa fa-google-plus&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Google&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;youtube&quot;&gt;&lt;span class=&quot;fa fa-youtube&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Youtube&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;rss&quot;&gt;&lt;span class=&quot;fa fa-rss&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads RSS Feed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+";i:2;s:907:"&lt;h3&gt;Stay Connected&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li class=&quot;facebook&quot;&gt;&lt;span class=&quot;fa fa-facebook&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Facebook&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;twitter&quot;&gt;&lt;span class=&quot;fa fa-twitter&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Twitter&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;google&quot;&gt;&lt;span class=&quot;fa fa-google-plus&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Google&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;youtube&quot;&gt;&lt;span class=&quot;fa fa-youtube&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Youtube&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;rss&quot;&gt;&lt;span class=&quot;fa fa-rss&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads RSS Feed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+";i:3;s:907:"&lt;h3&gt;Stay Connected&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li class=&quot;facebook&quot;&gt;&lt;span class=&quot;fa fa-facebook&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Facebook&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;twitter&quot;&gt;&lt;span class=&quot;fa fa-twitter&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Twitter&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;google&quot;&gt;&lt;span class=&quot;fa fa-google-plus&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Google&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;youtube&quot;&gt;&lt;span class=&quot;fa fa-youtube&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads Youtube&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;rss&quot;&gt;&lt;span class=&quot;fa fa-rss&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;Triads RSS Feed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:5:"99999";s:8:"position";s:13:"footer_center";s:6:"status";s:1:"1";s:12:"module_class";s:13:"column social";s:10:"sort_order";s:1:"3";}i:9;a:9:{s:12:"module_title";a:3:{i:1;s:11:"Information";i:2;s:11:"Information";i:3;s:11:"Information";}s:11:"description";a:3:{i:1;s:944:"&lt;h3&gt;Information&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=4&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=6&quot;&gt;Delivery Information&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=3&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=5&quot;&gt;Terms &amp;amp; Conditions&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/contact&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/return/insert&quot;&gt;Returns&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/sitemap&quot;&gt;Site Map&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+";i:2;s:944:"&lt;h3&gt;Information&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=4&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=6&quot;&gt;Delivery Information&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=3&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=5&quot;&gt;Terms &amp;amp; Conditions&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/contact&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/return/insert&quot;&gt;Returns&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/sitemap&quot;&gt;Site Map&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+";i:3;s:944:"&lt;h3&gt;Information&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=4&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=6&quot;&gt;Delivery Information&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=3&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/information&amp;amp;information_id=5&quot;&gt;Terms &amp;amp; Conditions&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/contact&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/return/insert&quot;&gt;Returns&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=information/sitemap&quot;&gt;Site Map&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:5:"99999";s:8:"position";s:13:"footer_center";s:6:"status";s:1:"1";s:12:"module_class";s:6:"column";s:10:"sort_order";s:1:"4";}i:10;a:9:{s:12:"module_title";a:3:{i:1;s:10:"My Account";i:2;s:10:"My Account";i:3;s:10:"My Account";}s:11:"description";a:3:{i:1;s:884:"&lt;h3&gt;My Account&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/account&quot;&gt;My Account&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/order&quot;&gt;Order History&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/wishlist&quot;&gt;Wish List&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/newsletter&quot;&gt;Newsletter&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=product/manufacturer&quot;&gt;Brands&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/voucher&quot;&gt;Gift Vouchers&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=affiliate/account&quot;&gt;Affiliates&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=product/special&quot;&gt;Specials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+";i:2;s:884:"&lt;h3&gt;My Account&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/account&quot;&gt;My Account&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/order&quot;&gt;Order History&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/wishlist&quot;&gt;Wish List&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/newsletter&quot;&gt;Newsletter&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=product/manufacturer&quot;&gt;Brands&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/voucher&quot;&gt;Gift Vouchers&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=affiliate/account&quot;&gt;Affiliates&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=product/special&quot;&gt;Specials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+";i:3;s:884:"&lt;h3&gt;My Account&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/account&quot;&gt;My Account&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/order&quot;&gt;Order History&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/wishlist&quot;&gt;Wish List&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/newsletter&quot;&gt;Newsletter&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=product/manufacturer&quot;&gt;Brands&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=account/voucher&quot;&gt;Gift Vouchers&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=affiliate/account&quot;&gt;Affiliates&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;index.php?route=product/special&quot;&gt;Specials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+";}s:8:"store_id";a:1:{i:0;s:1:"0";}s:10:"show_title";s:1:"0";s:9:"layout_id";s:5:"99999";s:8:"position";s:13:"footer_center";s:6:"status";s:1:"1";s:12:"module_class";s:15:"column noborder";s:10:"sort_order";i:5;}}

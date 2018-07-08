@@ -1,0 +1,88 @@
+
+/**jcarousel**/
+.jcarousel {padding:6px 15px; border: 1px solid #e1e1e1; background:#fcfcfc; margin-bottom:20px}
+.jcarousel h2 {color:#4A4B4D; line-height:66px; text-transform:uppercase; margin:0px;font-size: 18px;}
+
+
+
+.jcarousel-skin-zeestore .jcarousel-container {
+	
+}
+.jcarousel-skin-zeestore .jcarousel-direction-rtl {
+	direction: rtl;
+}
+.jcarousel-skin-zeestore .jcarousel-container-horizontal {
+	padding: 0px 24px;
+}
+.jcarousel-skin-zeestore .jcarousel-clip {
+	overflow: hidden;
+	width: 100%;
+}
+.jcarousel-skin-zeestore .jcarousel-clip-horizontal {
+}
+.jcarousel-skin-zeestore .jcarousel-item {
+	text-align: center;
+}
+.jcarousel-skin-zeestore .jcarousel-item-horizontal {
+	margin-left: 0;
+	margin-right: 4px;
+	background:#fff;
+}
+.jcarousel-skin-zeestore .jcarousel-item-horizontal a{border:1px solid #EBEBEB; text-align:center; display:block}
+.jcarousel-skin-zeestore .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.jcarousel-skin-zeestore .jcarousel-item-placeholder {
+	background: #fff;
+	color: #000;
+}
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-zeestore .jcarousel-next-horizontal {
+	position: absolute;
+	top: 18px;
+	right: 5px;
+	width: 24px;
+	height: 29px;
+	cursor: pointer;
+	background:url(../image/carousel_move.png) top right no-repeat;
+}
+.jcarousel-skin-zeestore .jcarousel-direction-rtl .jcarousel-next-horizontal {
+	left: 5px;
+	right: auto;
+	background:url(../image/carousel_move.png) top left no-repeat; 
+}
+.jcarousel-skin-zeestore .jcarousel-next-horizontal:hover, .jcarousel-skin-zeestore .jcarousel-next-horizontal:focus {
+background-position:bottom right
+}
+.jcarousel-skin-zeestore .jcarousel-next-horizontal:active {
+}
+.jcarousel-skin-zeestore .jcarousel-next-disabled-horizontal, .jcarousel-skin-zeestore .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-zeestore .jcarousel-next-disabled-horizontal:focus, .jcarousel-skin-zeestore .jcarousel-next-disabled-horizontal:active {
+	cursor: default;
+	background: none;
+}
+.jcarousel-skin-zeestore .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 18px;
+	left: 0px;
+	width: 24px;
+	height: 29px;
+	cursor: pointer;
+	background:url(../image/carousel_move.png) top left no-repeat; 
+}
+.jcarousel-skin-zeestore .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+	left: auto;
+	right: 0px;
+	background:url(../image/carousel_move.png) top right no-repeat;
+}
+.jcarousel-skin-zeestore .jcarousel-prev-horizontal:hover, .jcarousel-skin-zeestore .jcarousel-prev-horizontal:focus {
+background-position:bottom left
+}
+.jcarousel-skin-zeestore .jcarousel-prev-horizontal:active {
+}
+.jcarousel-skin-zeestore .jcarousel-prev-disabled-horizontal, .jcarousel-skin-zeestore .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-zeestore .jcarousel-prev-disabled-horizontal:focus, .jcarousel-skin-zeestore .jcarousel-prev-disabled-horizontal:active {
+	cursor: default;
+	background: none;
+}
