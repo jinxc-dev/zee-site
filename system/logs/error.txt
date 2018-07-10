@@ -36,3 +36,312 @@
 2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
 2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
 2014-11-04 13:56:43 - PHP Notice:  Undefined index: cateogry_product_row in M:\wamp\www\zeemall\admin\view\template\module\themecontrol\tab\pages-setting.tpl on line 28
+2018-07-08 15:43:39 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\mail.php on line 150
+2018-07-08 15:43:40 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\mail.php on line 150
+2018-07-08 15:43:41 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\mail.php on line 150
+2018-07-09 10:21:35 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 19
+2018-07-09 10:22:18 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 19
+2018-07-09 10:23:31 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 19
+2018-07-09 10:24:31 - PHP Notice:  Undefined variable: test in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 723
+2018-07-09 10:24:53 - PHP Notice:  Undefined variable: test in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 723
+2018-07-09 10:24:56 - PHP Notice:  Undefined variable: test in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 723
+2018-07-09 10:25:40 - PHP Notice:  Array to string conversion in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 723
+2018-07-09 10:25:43 - PHP Notice:  Array to string conversion in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 723
+2018-07-09 10:28:25 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 19
+2018-07-09 10:28:25 - PHP Notice:  Undefined variable: w_test in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 641
+2018-07-09 10:29:01 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 19
+2018-07-09 11:34:48 - PHP Notice:  Error: Could not load language multiseller/newinfo.php! in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\vqmod\vqcache\vq2-system_library_language.php on line 39
+2018-07-09 11:34:48 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 20
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_register_seller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 21
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_heading in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 133
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 142
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 145
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_livesin in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 154
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: seller_livesin in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 156
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 157
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 163
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 167
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 175
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_paypal in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 187
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_paypal_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 190
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_avatar in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 198
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_button_select_image in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 203
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_avatar_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 223
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_account_sellerinfo_terms in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 240
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_button_save in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 274
+2018-07-09 11:34:48 - PHP Notice:  Undefined variable: ms_error_file_upload_error in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 294
+2018-07-09 11:35:06 - PHP Notice:  Error: Could not load language multiseller/newinfo.php! in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\vqmod\vqcache\vq2-system_library_language.php on line 39
+2018-07-09 11:35:06 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 20
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_register_seller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 21
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_heading in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 133
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 142
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 145
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_livesin in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 154
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: seller_livesin in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 156
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 157
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 163
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 167
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 175
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_paypal in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 187
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_paypal_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 190
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_avatar in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 198
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_button_select_image in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 203
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_avatar_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 223
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_account_sellerinfo_terms in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 240
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_button_save in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 274
+2018-07-09 11:35:07 - PHP Notice:  Undefined variable: ms_error_file_upload_error in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 294
+2018-07-09 11:35:42 - PHP Notice:  Error: Could not load language multiseller/newinfo.php! in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\vqmod\vqcache\vq2-system_library_language.php on line 39
+2018-07-09 11:35:42 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 20
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_register_seller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 21
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_heading in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 133
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 142
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 145
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_livesin in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 154
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: seller_livesin in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 156
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 163
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 167
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 175
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_paypal in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 187
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_paypal_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 190
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_avatar in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 198
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_button_select_image in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 203
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_avatar_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 223
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_account_sellerinfo_terms in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 240
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_button_save in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 274
+2018-07-09 11:35:43 - PHP Notice:  Undefined variable: ms_error_file_upload_error in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 294
+2018-07-09 11:35:51 - PHP Notice:  Error: Could not load language multiseller/newinfo.php! in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\vqmod\vqcache\vq2-system_library_language.php on line 39
+2018-07-09 11:35:51 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 20
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_register_seller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 21
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_heading in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 133
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 142
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_nickname_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 145
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 157
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 161
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 169
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_description_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 173
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_paypal in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 181
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_paypal_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_avatar in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 192
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_button_select_image in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 197
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_avatar_note in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 217
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_account_sellerinfo_terms in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 234
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_button_save in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 268
+2018-07-09 11:35:52 - PHP Notice:  Undefined variable: ms_error_file_upload_error in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 288
+2018-07-09 11:37:01 - PHP Notice:  Error: Could not load language multiseller/newinfo.php! in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\vqmod\vqcache\vq2-system_library_language.php on line 39
+2018-07-09 11:37:01 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 20
+2018-07-09 11:39:14 - PHP Notice:  Undefined variable: seller_livesin in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 156
+2018-07-09 11:45:17 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 808
+2018-07-09 20:39:53 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 156
+2018-07-09 20:41:06 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 168
+2018-07-09 20:44:14 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 168
+2018-07-09 21:01:16 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:01:43 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:03:58 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:04:30 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:05:32 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:06:26 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:07:04 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:07:54 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:08:44 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:10:41 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:10:55 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 184
+2018-07-09 21:14:02 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 177
+2018-07-09 21:18:30 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 177
+2018-07-10 1:40:48 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 1:42:51 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 1:49:00 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 1:49:00 - PHP Notice:  Undefined variable: weight in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 263
+2018-07-10 1:49:00 - PHP Warning:  Invalid argument supplied for foreach() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 11
+2018-07-10 1:49:52 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 1:52:58 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:27:29 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:28:11 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:28:11 - PHP Notice:  Undefined variable: predefined_avatars in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 3:30:14 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:30:14 - PHP Notice:  Undefined variable: predefined_avatars in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 3:30:35 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:30:35 - PHP Notice:  Undefined variable: predefined_avatars in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 3:34:19 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:34:28 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:35:10 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:35:13 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:44:21 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:44:25 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 3:47:44 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:05:38 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:07:07 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:08:22 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:08:47 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:10:01 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:10:49 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:11:02 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:14:18 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:17:20 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:17:25 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:19:43 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:24:39 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:24:56 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:25:59 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:26:26 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:28:16 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:29:26 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:29:59 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:30:45 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:32:22 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:35:43 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:43:53 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:45:00 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:54:30 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:55:42 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 5:59:07 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 6:00:48 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 6:03:10 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 6:06:58 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 8:37:35 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 8:37:41 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 808
+2018-07-10 8:37:42 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 8:38:06 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 8:38:18 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 808
+2018-07-10 8:38:18 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 8:38:44 - PHP Notice:  Undefined variable: seller_birth in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 179
+2018-07-10 10:10:33 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 865
+2018-07-10 10:10:42 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 865
+2018-07-10 10:12:54 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 865
+2018-07-10 10:18:29 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 865
+2018-07-10 10:19:27 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 865
+2018-07-10 10:19:38 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 865
+2018-07-10 11:00:43 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 11:00:43 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 11:00:43 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 11:00:43 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 11:01:28 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 11:01:28 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 11:01:28 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 11:01:28 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 11:02:03 - PHP Notice:  Undefined index: fax in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 14
+2018-07-10 11:02:03 - PHP Notice:  Undefined index: company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 11:02:03 - PHP Notice:  Undefined index: company_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 11:02:03 - PHP Notice:  Undefined index: tax_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 11:02:04 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\mail.php on line 150
+2018-07-10 11:02:04 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 116
+2018-07-10 11:02:04 - PHP Notice:  Undefined index: seller_zone in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 118
+2018-07-10 11:02:04 - PHP Notice:  Undefined index: seller_status in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 134
+2018-07-10 11:02:04 - PHP Notice:  Undefined index: seller_avatar_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 149
+2018-07-10 11:02:04 - PHP Notice:  Undefined index: seller_id_front in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 150
+2018-07-10 11:02:04 - PHP Notice:  Undefined index: seller_id_back in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 151
+2018-07-10 11:02:04 - PHP Notice:  Undefined index: ethnicity in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msseller.php on line 117
+2018-07-10 11:02:04 - PHP Notice:  Undefined variable: piercings in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msseller.php on line 135
+2018-07-10 11:05:42 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 11:05:42 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 11:05:42 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 11:05:42 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 11:13:03 - PHP Notice:  Undefined index: multiseller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 140
+2018-07-10 11:13:03 - PHP Warning:  array_search() expects parameter 2 to be array, null given in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 140
+2018-07-10 11:13:03 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 11:13:03 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 359
+2018-07-10 11:13:03 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 11:13:03 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 11:13:03 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 11:13:03 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 11:22:10 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 11:22:10 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 359
+2018-07-10 11:22:10 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 11:22:10 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 11:22:10 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 11:22:10 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 11:23:27 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 11:23:27 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 359
+2018-07-10 11:23:27 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 11:23:27 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 11:23:27 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 11:23:27 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 11:26:39 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 11:26:39 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 359
+2018-07-10 11:26:39 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 11:26:39 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 11:26:39 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 11:26:39 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 11:27:38 - PHP Notice:  Undefined index: fax in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 14
+2018-07-10 11:27:38 - PHP Notice:  Undefined index: company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 11:27:38 - PHP Notice:  Undefined index: company_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 11:27:38 - PHP Notice:  Undefined index: tax_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 11:27:39 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\mail.php on line 150
+2018-07-10 11:27:39 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 116
+2018-07-10 11:27:39 - PHP Notice:  Undefined index: seller_zone in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 118
+2018-07-10 11:27:39 - PHP Notice:  Undefined index: seller_status in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 134
+2018-07-10 11:27:39 - PHP Notice:  Undefined index: ethnicity in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msseller.php on line 117
+2018-07-10 11:27:39 - PHP Notice:  Undefined variable: piercings in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msseller.php on line 135
+2018-07-10 11:38:17 - PHP Notice:  Undefined index: fax in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 14
+2018-07-10 11:38:17 - PHP Notice:  Undefined index: company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 11:38:17 - PHP Notice:  Undefined index: company_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 11:38:17 - PHP Notice:  Undefined index: tax_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 11:38:18 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\mail.php on line 150
+2018-07-10 11:38:18 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 116
+2018-07-10 11:38:18 - PHP Notice:  Undefined index: seller_zone in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 118
+2018-07-10 11:38:18 - PHP Notice:  Undefined index: seller_status in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 134
+2018-07-10 11:38:18 - PHP Notice:  Undefined index: multiseller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 172
+2018-07-10 11:38:18 - PHP Warning:  array_search() expects parameter 2 to be array, null given in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 172
+2018-07-10 11:38:18 - PHP Notice:  Undefined index: multiseller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 172
+2018-07-10 11:38:18 - PHP Warning:  array_search() expects parameter 2 to be array, null given in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 172
+2018-07-10 11:38:18 - PHP Notice:  Undefined index: multiseller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 172
+2018-07-10 11:38:18 - PHP Warning:  array_search() expects parameter 2 to be array, null given in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 172
+2018-07-10 11:38:18 - PHP Notice:  Undefined index: multiseller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 172
+2018-07-10 11:38:18 - PHP Warning:  array_search() expects parameter 2 to be array, null given in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 172
+2018-07-10 11:38:18 - PHP Notice:  Undefined index: ethnicity in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msseller.php on line 117
+2018-07-10 12:53:49 - PHP Notice:  Undefined index: multiseller in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 140
+2018-07-10 12:53:49 - PHP Warning:  array_search() expects parameter 2 to be array, null given in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 140
+2018-07-10 12:53:49 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 12:53:49 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 359
+2018-07-10 12:53:49 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 12:53:49 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 12:53:49 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 12:53:49 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 12:55:38 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 12:55:38 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 359
+2018-07-10 12:55:38 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 12:55:38 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 12:55:38 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 12:55:38 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 12:56:44 - PHP Notice:  Array to string conversion in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msfile.php on line 140
+2018-07-10 12:56:44 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 358
+2018-07-10 12:56:44 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 359
+2018-07-10 12:56:44 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 376
+2018-07-10 12:56:44 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 377
+2018-07-10 12:56:44 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 389
+2018-07-10 12:56:44 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 390
+2018-07-10 12:59:51 - PHP Notice:  Undefined index: fax in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 14
+2018-07-10 12:59:51 - PHP Notice:  Undefined index: company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 12:59:51 - PHP Notice:  Undefined index: company_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 12:59:51 - PHP Notice:  Undefined index: tax_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 12:59:52 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\mail.php on line 150
+2018-07-10 12:59:52 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 120
+2018-07-10 12:59:52 - PHP Notice:  Undefined index: seller_zone in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 122
+2018-07-10 12:59:52 - PHP Notice:  Undefined index: seller_status in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 138
+2018-07-10 12:59:52 - PHP Notice:  Undefined index: ethnicity in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msseller.php on line 117
+2018-07-10 13:06:13 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 362
+2018-07-10 13:06:13 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 363
+2018-07-10 13:06:13 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 380
+2018-07-10 13:06:13 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 381
+2018-07-10 13:06:13 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 393
+2018-07-10 13:06:13 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 394
+2018-07-10 13:07:38 - PHP Notice:  Undefined index: tax_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 13:07:39 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\mail.php on line 150
+2018-07-10 13:07:39 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 120
+2018-07-10 13:07:39 - PHP Notice:  Undefined index: seller_zone in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 122
+2018-07-10 13:07:39 - PHP Notice:  Undefined index: seller_status in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 138
+2018-07-10 13:07:39 - PHP Notice:  Undefined index: ethnicity in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msseller.php on line 117
+2018-07-10 13:11:48 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 362
+2018-07-10 13:11:48 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 363
+2018-07-10 13:11:48 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 380
+2018-07-10 13:11:48 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 381
+2018-07-10 13:11:48 - PHP Warning:  Illegal string offset 'name' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 393
+2018-07-10 13:11:48 - PHP Warning:  Illegal string offset 'thumb' in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\view\theme\zee_responsive\template\account\register-seller.tpl on line 394
+2018-07-10 13:14:06 - PHP Notice:  Undefined index: tax_id in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\model\account\customer.php on line 18
+2018-07-10 13:14:07 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\mail.php on line 150
+2018-07-10 13:14:07 - PHP Notice:  Undefined index: seller_company in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 120
+2018-07-10 13:14:07 - PHP Notice:  Undefined index: seller_zone in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 122
+2018-07-10 13:14:07 - PHP Notice:  Undefined index: seller_status in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\catalog\controller\account\register-seller.php on line 138
+2018-07-10 13:14:07 - PHP Notice:  Undefined index: ethnicity in D:\_WSP\_work\2018-07-08(zeeStore)\zee-site\system\library\msseller.php on line 117

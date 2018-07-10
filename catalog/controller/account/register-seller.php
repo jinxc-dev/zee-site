@@ -12,15 +12,22 @@ class ControllerAccountRegisterSeller extends Controller {
 		if ($this->customer->isLogged()) {
 	  		$this->redirect($this->url->link('account/account', '', 'SSL'));
     	}
-		
+
     	$this->language->load('account/register');
 		$this->data = array_merge($this->data, $this->load->language('multiseller/multiseller'));
-		
+		$w_seller_info = require_once DIR_APPLICATION .'/constant/seller.php';
+		$this->data=array_merge($this->data, $w_seller_info);
+		$this->data = array_merge($this->data, $this->load->language('multiseller/newinfo'));
+
 		$this->document->setTitle($this->language->get('ms_account_register_seller'));
 		$this->document->addScript('catalog/view/javascript/jquery/colorbox/jquery.colorbox-min.js');
 		$this->document->addStyle('catalog/view/javascript/jquery/colorbox/colorbox.css');
 		
 		$this->load->model('account/customer');
+
+		$this->data['fax'] = '';
+		$this->data['company'] = '';
+		$this->data['company_id'] = '';
 		
     	if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 			
@@ -119,8 +126,36 @@ class ControllerAccountRegisterSeller extends Controller {
 			}
 			
 			$this->session->data['seller']['seller_id'] = $this->customer->getId();
-			$this->session->data['seller']['product_validation'] = $this->config->get('msconf_product_validation'); 
+			$this->session->data['seller']['product_validation'] = $this->config->get('msconf_product_validation');
+			
+			//. seller add information
+			$this->session->data['seller']['occupation'] = $this->request->post['seller_occupation'];
+			$this->session->data['seller']['birth'] = $this->request->post['seller_birth'];
+			$this->session->data['seller']['gender'] = $this->request->post['seller_gender'];
+			$this->session->data['seller']['sign'] = $this->request->post['seller_sign'];
+			$this->session->data['seller']['lives_in'] = $this->request->post['seller_lives_in'];
+			$this->session->data['seller']['language'] = $this->request->post['seller_language'];
+			$this->session->data['seller']['c_status'] = $this->request->post['seller_status'];
+			$this->session->data['seller']['orientation'] = $this->request->post['seller_orientation'];
+			$this->session->data['seller']['hair_color'] = $this->request->post['seller_hair_color'];
+			$this->session->data['seller']['eye_color'] = $this->request->post['seller_eye_color'];
+			$this->session->data['seller']['bust'] = $this->request->post['seller_bust'];
+			$this->session->data['seller']['waist'] = $this->request->post['seller_waist'];
+			$this->session->data['seller']['hips'] = $this->request->post['seller_hips'];
+			$this->session->data['seller']['height'] = $this->request->post['seller_height'];
+			$this->session->data['seller']['body_type'] = $this->request->post['seller_body_type'];
+			$this->session->data['seller']['weight'] = $this->request->post['seller_weight'];
+			$this->session->data['seller']['breast_type'] = $this->request->post['seller_breast_type'];
+			$this->session->data['seller']['breast_size'] = $this->request->post['seller_breast_size'];
+			$this->session->data['seller']['implant_size'] = $this->request->post['seller_implant_size'];
+			$this->session->data['seller']['tattoos'] = $this->request->post['seller_tattoos'];
+			$this->session->data['seller']['piercings'] = $this->request->post['seller_piercings'];
+			$this->session->data['seller']['avatar_id'] = $this->request->post['seller_avatar_id'];
+			$this->session->data['seller']['id_front'] = $this->request->post['seller_id_front'];
+			$this->session->data['seller']['id_back'] = $this->request->post['seller_id_back'];
+
 			$this->MsLoader->MsSeller->createSeller($this->session->data['seller']);
+			return;
 			
 			$commissions = $this->MsLoader->MsCommission->calculateCommission(array('seller_group_id' => $this->config->get('msconf_default_seller_group_id')));
 			$fee = (float)$commissions[MsCommission::RATE_SIGNUP]['flat'];
@@ -206,7 +241,6 @@ class ControllerAccountRegisterSeller extends Controller {
 		$this->data['text_your_details'] = $this->language->get('text_your_details');
     	$this->data['text_your_address'] = $this->language->get('text_your_address');
     	$this->data['text_your_password'] = $this->language->get('text_your_password');
-		//$this->data['text_newsletter'] = $this->language->get('text_newsletter');
 		$this->data['text_yes'] = $this->language->get('text_yes');
 		$this->data['text_no'] = $this->language->get('text_no');
 		$this->data['text_select'] = $this->language->get('text_select');
@@ -557,7 +591,44 @@ class ControllerAccountRegisterSeller extends Controller {
 		} else {
 			$this->data['text_agree'] = '';
 		}
-		
+
+		/////////////////////////////////////////////////////////////////////////////////////////////////////
+		$w_key = array(
+			'seller_lives_in', 
+			'seller_occupation', 
+			'seller_birth', 
+			'seller_gender',
+			'seller_sign',
+			'seller_ethnicity',
+			'seller_language',
+			'seller_c_status',
+			'seller_orientation',
+			'seller_hair_color',
+			'seller_eye_color',
+			'seller_bust',
+			'seller_waist',
+			'seller_hips',
+			'seller_height',
+			'seller_body_type',
+			'seller_weight',
+			'seller_breast_type',
+			'seller_breast_size',
+			'seller_implant_size',
+			'seller_tattoos',
+			'seller_piercings',
+			'seller_avatar_id',
+			'seller_id_front',
+			'seller_id_back'
+		);
+
+		foreach ($w_key as $v) {
+			$this->data[$v] = '';
+			if (isset($this->request->post[$v])) {
+	    		$this->data[$v] = $this->request->post[$v];
+			}
+		}
+
+	
 		/*if (isset($this->request->post['agree'])) {
       		$this->data['agree'] = $this->request->post['agree'];
 		} else {
@@ -636,7 +707,6 @@ class ControllerAccountRegisterSeller extends Controller {
 		} else {
 			$this->template = 'default/template/account/register-seller.tpl';
 		}
-		
 		$this->children = array(
 			'common/column_left',
 			'common/column_right',
@@ -797,10 +867,10 @@ class ControllerAccountRegisterSeller extends Controller {
 			}
 		}
 		
-		if (mb_strlen($data['seller_company']) > 50 ) {
-			//$json['errors']['seller[company]'] = $this->language->get('ms_error_sellerinfo_company_length');
-			$this->error['seller_company'] = $this->language->get('ms_error_sellerinfo_company_length');
-		}
+		// if (mb_strlen($data['seller_company']) > 50 ) {
+		// 	//$json['errors']['seller[company]'] = $this->language->get('ms_error_sellerinfo_company_length');
+		// 	$this->error['seller_company'] = $this->language->get('ms_error_sellerinfo_company_length');
+		// }
 		
 		if (mb_strlen($data['seller_description']) > 1000) {
 			//$json['errors']['seller[description]'] = $this->language->get('ms_error_sellerinfo_description_length');

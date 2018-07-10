@@ -1,6 +1,24 @@
 <?php require(  DIR_TEMPLATE.$this->config->get('config_template')."/template/common/config.tpl" ); ?>
 <?php echo $header; ?>
 
+<?php
+  function create_seller_select($items, $prex, $val = "", $empty_note = "Choose") {
+
+    $str = '<select name="seller_' . $prex . '">';
+    if ($empty_note != 'none') {
+      $str .= '<option value="" selected="selected">' . $empty_note . '</option>';
+    }
+    foreach ($items as $i) {
+      $str .= '<option value="' . $i . '"';
+      if ($i == $val) $str .= ' selected="selected"';
+      $str .= '>';
+      $str .= $i . '</option>';
+    }
+    $str .= "</select>";
+    return $str;
+  };
+?>
+
 <?php if( $SPAN[0] ): ?>
 	<div class="span<?php echo $SPAN[0];?>">
 		<?php echo $column_left; ?>
@@ -21,6 +39,10 @@
   <h1><?php echo $ms_account_register_seller; ?></h1>
   <p><?php echo $text_account_already; ?></p>
   <form id="ms-accountinfo">
+    <input type="hidden" name="fax" value="" />
+    <input type="hidden" name="company" value="" />
+    <input type="hidden" name="company_id" value="" />
+
     <h2><?php echo $text_your_details; ?></h2>
     <div class="content">
       <table class="form">
@@ -52,47 +74,12 @@
             <span class="error"><?php echo $error_telephone; ?></span>
             <?php } ?></td>
         </tr>
-        <tr>
-          <td><?php echo $entry_fax; ?></td>
-          <td><input type="text" name="fax" value="<?php echo $fax; ?>" /></td>
-        </tr>
       </table>
     </div>
     <h2><?php echo $text_your_address; ?></h2>
     <div class="content">
       <table class="form">
-        <tr>
-          <td><?php echo $entry_company; ?></td>
-          <td><input type="text" name="company" value="<?php echo $company; ?>" /></td>
-        </tr>        
-        <tr style="display: <?php echo (count($customer_groups) > 1 ? 'table-row' : 'none'); ?>;">
-          <td><?php echo $entry_customer_group; ?></td>
-          <td><?php foreach ($customer_groups as $customer_group) { ?>
-            <?php if ($customer_group['customer_group_id'] == $customer_group_id) { ?>
-            <input type="radio" name="customer_group_id" value="<?php echo $customer_group['customer_group_id']; ?>" id="customer_group_id<?php echo $customer_group['customer_group_id']; ?>" checked="checked" />
-            <label for="customer_group_id<?php echo $customer_group['customer_group_id']; ?>"><?php echo $customer_group['name']; ?></label>
-            <br />
-            <?php } else { ?>
-            <input type="radio" name="customer_group_id" value="<?php echo $customer_group['customer_group_id']; ?>" id="customer_group_id<?php echo $customer_group['customer_group_id']; ?>" />
-            <label for="customer_group_id<?php echo $customer_group['customer_group_id']; ?>"><?php echo $customer_group['name']; ?></label>
-            <br />
-            <?php } ?>
-            <?php } ?></td>
-        </tr>      
-        <tr id="company-id-display">
-          <td><span id="company-id-required" class="required">*</span> <?php echo $entry_company_id; ?></td>
-          <td><input type="text" name="company_id" value="<?php echo $company_id; ?>" />
-            <?php if ($error_company_id) { ?>
-            <span class="error"><?php echo $error_company_id; ?></span>
-            <?php } ?></td>
-        </tr>
-        <tr id="tax-id-display">
-          <td><span id="tax-id-required" class="required">*</span> <?php echo $entry_tax_id; ?></td>
-          <td><input type="text" name="tax_id" value="<?php echo $tax_id; ?>" />
-            <?php if ($error_tax_id) { ?>
-            <span class="error"><?php echo $error_tax_id; ?></span>
-            <?php } ?></td>
-        </tr>
+
         <tr>
           <td><span class="required">*</span> <?php echo $entry_address_1; ?></td>
           <td><input type="text" name="address_1" value="<?php echo $address_1; ?>" />
@@ -183,7 +170,123 @@
 					<?php } ?></td>
 				</td>
 			</tr>
-			
+
+      <!-- **********Add Seller Information**************-->
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_occupation; ?></td>
+        <td><?php echo create_seller_select($occupation, "occupation", $seller_occupation);?></td>
+      </tr>
+
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_birth; ?></td>
+        <td>
+          <input type="text" id='seller_birth' name="seller_birth" value="<?php echo $seller_birth; ?>" readOnly style="cursor: pointer;"/>
+        </td>
+      </tr>
+
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_gender; ?></td>
+        <td><?php echo create_seller_select($gender, "gender", $seller_gender);?></td>
+      </tr>
+
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_sign; ?></td>
+        <td><?php echo create_seller_select($sign, "sign", $seller_sign);?></td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_ethnicity; ?></td>
+        <td><?php echo create_seller_select($ethnicity, "ethnicity", $seller_ethnicity);?></td>
+      </tr>
+
+      <tr>
+        <td><?php echo $ms_account_sellerinfo_nationality; ?></td>
+        <td>
+          <select name="seller_country_id">
+            <option value="" selected="selected"><?php echo $ms_account_sellerinfo_country_dont_display; ?></option>
+            <?php foreach ($countries as $country) { ?>
+            <option value="<?php echo $country['country_id']; ?>" <?php if ($seller_country == $country['country_id']) { ?>selected="selected"<?php } ?>><?php echo $country['name']; ?></option>
+            <?php } ?>
+          </select>
+          <p class="ms-note"><?php echo $ms_account_sellerinfo_country_note; ?></p>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_livesin; ?></td>
+        <td>
+          <input type="text" name="seller_lives_in" value="<?php echo $seller_lives_in; ?>" />
+        </td>
+      </tr>
+
+      <tr>
+        <td><span class="required">*</span><?php echo $ms_account_sellerinfo_language; ?></td>
+        <td>
+          <input type="text" name="seller_language" value="<?php echo $seller_lives_in; ?>" />
+        </td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_status; ?></td>
+        <td><?php echo create_seller_select($status, "c_status", $seller_c_status);?></td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_orientation; ?></td>
+        <td><?php echo create_seller_select($orientation, "orientation", $seller_orientation);?></td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_hair_color; ?></td>
+        <td><?php echo create_seller_select($hair_color, "hair_color", $seller_hair_color);?></td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_eye_color; ?></td>
+        <td><?php echo create_seller_select($eye_color, "eye_color", $seller_eye_color);?></td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_measurements; ?></td>
+        <td>
+          <?php echo create_seller_select($bust, "bust", $seller_bust, "Bust");?>
+          <?php echo create_seller_select($waist, "waist",$seller_waist, "Waist");?>
+          <?php echo create_seller_select($hips, "hips", $seller_hips, "Hips");?>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_height; ?></td>
+        <td>
+          <?php echo create_seller_select($height, "height", $seller_height);?>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_body_type; ?></td>
+        <td>
+          <?php echo create_seller_select($body_type, "body_type", $seller_body_type);?>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_weight; ?></td>
+        <td>
+          <?php echo create_seller_select($weight, "weight", $seller_weight);?>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_breast_size; ?></td>
+        <td>
+          <?php echo create_seller_select($breast_type, "breast_type", $seller_breast_type, "Choose type");?>
+          <?php echo create_seller_select($breast_size, "breast_size", $seller_breast_size, "Breast size");?>
+          <?php echo create_seller_select($implant_size, "implant_size", $seller_implant_size, "No implaint size");?>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_tattoo; ?></td>
+        <td><?php echo create_seller_select($tattoos, "tattoos", $seller_tattoos, "none");?></td>
+      </tr>
+      <tr>
+        <td><span class="required">*</span> <?php echo $ms_account_sellerinfo_tattoo; ?></td>
+        <td><?php echo create_seller_select($piercings, "piercings", $seller_piercings, "none");?></td>
+      </tr>
+
+      <!-- ************************************ -->
+
+
 			<tr>
 				<td><?php echo $ms_account_sellerinfo_description; ?></td>
 				<td>
@@ -196,40 +299,7 @@
 				</td>
 			</tr>
 			
-			<tr>
-				<td><?php echo $ms_account_sellerinfo_company; ?></td>
-				<td>
-					<input type="text" name="seller_company" value="<?php echo $seller_company; ?>" />
-					<p class="ms-note"><?php echo $ms_account_sellerinfo_company_note; ?></p>
-					<?php if ($error_seller_company) { ?>
-						<span class="error"><?php echo $error_seller_company; ?></span>
-					<?php } ?></td>
-				</td>
-			</tr>
-			
-			<tr>
-				<td><?php echo $ms_account_sellerinfo_country; ?></td>
-				<td>
-					<select name="seller_country_id">
-						<option value="" selected="selected"><?php echo $ms_account_sellerinfo_country_dont_display; ?></option>
-						<?php foreach ($countries as $country) { ?>
-						<option value="<?php echo $country['country_id']; ?>" <?php if ($seller_country == $country['country_id']) { ?>selected="selected"<?php } ?>><?php echo $country['name']; ?></option>
-						<?php } ?>
-					</select>
-					<p class="ms-note"><?php echo $ms_account_sellerinfo_country_note; ?></p>
-				</td>
-			</tr>
-			
-			<tr>
-				<td><?php echo $ms_account_sellerinfo_zone; ?></td>
-				<td>
-					<select name="seller_zone">
-					</select>
-					<p class="ms-note"><?php echo $ms_account_sellerinfo_zone_note; ?></p>
-				</td>
-			</tr>
-			
-			<tr>
+  		<tr>
 				<td><?php echo $ms_account_sellerinfo_paypal; ?></td>
 				<td>
 					<input type="text" name="seller_paypal" value="<?php echo $seller_paypal; ?>" />
@@ -280,6 +350,55 @@
 					</div>
 				</td>
 			</tr>
+      <tr>
+        <td><?php echo $ms_account_sellerinfo_avatar_id; ?></td>
+        <td>
+          <div class="buttons">
+            <a name="ms-file-seller-avatar-id" id="ms-file-seller-avatar-id" class="button"><span><?php echo $ms_button_select_image; ?></span></a>
+            <p class="ms-note"><?php echo $ms_account_sellerinfo_avatar_id_note; ?></p>
+            <div id="sellerinfo_avatar_id">
+            <?php if (!empty($seller_avatar_id)) { ?>
+              <div class="ms-image">
+                <input type="hidden" name="seller_avatar_id" value="<?php echo $seller_avatar_id['name']; ?>" />
+                <img src="<?php echo $seller_avatar_id['thumb']; ?>" />
+                <img class="ms-remove" src="catalog/view/theme/default/image/remove.png" />
+              </div>
+            <?php } ?>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><?php echo $ms_account_sellerinfo_id_pic; ?></td>
+        <td>
+          <div class="buttons" style="width: 50%; display: inherit">
+            <a name="ms-file-seller-id-front" id="ms-file-seller-id-front" class="button"><span><?php echo $ms_button_select_id_front; ?></span></a>
+            <p class="ms-note"><?php echo $ms_account_sellerinfo_id_front; ?></p>
+            <div id="sellerinfo_id_front">
+            <?php if (!empty($seller_id_front)) { ?>
+              <div class="ms-image">
+                <input type="hidden" name="seller_id_front" value="<?php echo $seller_id_front['name']; ?>" />
+                <img src="<?php echo $seller_id_front['thumb']; ?>" />
+                <img class="ms-remove" src="catalog/view/theme/default/image/remove.png" />
+              </div>
+            <?php } ?>
+            </div>
+          </div>
+          <div class="buttons" style="width: 50%; display: inherit;">
+            <a name="ms-file-seller-id-back" id="ms-file-seller-id-back" class="button"><span><?php echo $ms_button_select_id_back; ?></span></a>
+            <p class="ms-note"><?php echo $ms_account_sellerinfo_id_back; ?></p>
+            <div id="sellerinfo_id_back">
+            <?php if (!empty($seller_id_back)) { ?>
+              <div class="ms-image">
+                <input type="hidden" name="seller_id_back" value="<?php echo $seller_id_back['name']; ?>" />
+                <img src="<?php echo $seller_id_back['thumb']; ?>" />
+                <img class="ms-remove" src="catalog/view/theme/default/image/remove.png" />
+              </div>
+            <?php } ?>
+            </div>
+          </div>
+        </td>
+      </tr>
 			
 			<?php if ($ms_account_sellerinfo_terms_note) { ?>
 			<tr>
@@ -314,40 +433,7 @@
 			<?php echo $ms_commission_payment_type; ?>
 		</p>
 	<?php } ?>
-	
-	<!-- Common part -->
-	
-    <!--<h2><?php //echo $text_newsletter; ?></h2>
-    <div class="content">
-      <table class="form">
-        <tr>
-          <td><?php //echo $entry_newsletter; ?></td>
-          <td><?php //if ($newsletter) { ?>
-            <input type="radio" name="newsletter" value="1" checked="checked" />
-            <?php //echo $text_yes; ?>
-            <input type="radio" name="newsletter" value="0" />
-            <?php //echo $text_no; ?>
-            <?php //} else { ?>
-            <input type="radio" name="newsletter" value="1" />
-            <?php //echo $text_yes; ?>
-            <input type="radio" name="newsletter" value="0" checked="checked" />
-            <?php //echo $text_no; ?>
-            <?php //} ?></td>
-        </tr>
-      </table>
-    </div>-->
-    <?php //if ($text_agree) { ?>
-    <!--<div class="buttons">
-      <div class="right">--><?php //echo $text_agree; ?>
-        <?php //if ($agree) { ?>
-        <!--<input type="checkbox" name="agree" value="1" checked="checked" />-->
-        <?php //} else { ?>
-        <!--<input type="checkbox" name="agree" value="1" />-->
-        <?php //} ?>
-        <!--<a class="button" id="ms-submit-button" value="<?php //echo $button_continue; ?>"><span><?php //echo $ms_button_save; ?></span></a>
-      </div>
-    </div>-->
-    <?php //} else { ?>
+
     <div class="buttons">
       <div class="right">
         <a class="button" id="ms-submit-button" value="<?php echo $button_continue; ?>"><span><?php echo $ms_button_save; ?></span></a>
@@ -503,6 +589,10 @@ $(document).ready(function() {
 		width: 640,
 		height: 480
 	});
+
+  $('#seller_birth').datepicker({
+    dateFormat: "yy-mm-dd",
+  });
 });
 //--></script>
 <?php if ($this->config->get('msconf_avatars_for_sellers') == 1 || $this->config->get('msconf_avatars_for_sellers') == 2) { ?>

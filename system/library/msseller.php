@@ -75,11 +75,23 @@ final class MsSeller extends Model {
 	}
 		
 	public function createSeller($data) {
+		$id_front = ''; $avatar = ''; $avatar_id = '';$id_back = '';
+
 		if (isset($data['avatar_name'])) {
 			$avatar = $this->MsLoader->MsFile->moveImage($data['avatar_name']);
-		} else {
-			$avatar = '';
-		}
+		} 
+
+		if (isset($data['avatar_id'])) {
+			$avatar_id = $this->MsLoader->MsFile->moveImage($data['avatar_id']);
+		} 
+		
+		if (isset($data['id_front'])) {
+			$id_front = $this->MsLoader->MsFile->moveImage($data['id_front']);
+		} 
+		if (isset($data['id_back'])) {
+			$id_back = $this->MsLoader->MsFile->moveImage($data['id_back']);
+		} 
+
 		
 		if (isset($data['commission']))
 			$commission_id = $this->MsLoader->MsCommission->createCommission($data['commission']);
@@ -98,6 +110,31 @@ final class MsSeller extends Model {
 					product_validation = " . (int)$data['product_validation'] . ",
 					paypal = '" . $this->db->escape($data['paypal']) . "',
 					avatar = '" . $this->db->escape($avatar) . "',
+					occupation = '" . $this->db->escape($data['occupation']) . "',
+					birth = '" . $this->db->escape($data['birth']) . "',
+					gender = '" . $this->db->escape($data['gender']) . "',
+					sign = '" . $this->db->escape($data['sign']) . "',
+					ethnicity = '" . $this->db->escape($data['ethnicity']) . "',
+					lives_in = '" . $this->db->escape($data['lives_in']) . "',
+					language = '" . $this->db->escape($data['language']) . "',
+					c_status = '" . $this->db->escape($data['c_status']) . "',
+					orientation = '" . $this->db->escape($data['orientation']) . "',
+					hair_color = '" . $this->db->escape($data['hair_color']) . "',
+					eye_color = '" . $this->db->escape($data['eye_color']) . "',
+					bust = '" . $this->db->escape($data['bust']) . "',
+					waist = '" . $this->db->escape($data['waist']) . "',
+					hips = '" . $this->db->escape($data['hips']) . "',
+					height = '" . $this->db->escape($data['height']) . "',
+					body_type = '" . $this->db->escape($data['body_type']) . "',
+					weight = '" . $this->db->escape($data['weight']) . "',
+					breast_type = '" . $this->db->escape($data['breast_type']) . "',
+					breast_size = '" . $this->db->escape($data['breast_size']) . "',
+					implant_size = '" . $this->db->escape($data['implant_size']) . "',
+					tattoos = '" . $this->db->escape($data['tattoos']) . "',
+					piercings = '" . $this->db->escape($data['piercings']) . "',
+					avatar_id = '" . $this->db->escape($avatar_id) . "',
+					id_front = '" . $this->db->escape($id_front) . "',
+					id_back = '" . $this->db->escape($id_back) . "',
 					date_created = NOW()";
 
 		$this->db->query($sql);
